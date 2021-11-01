@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+}
+
+body {
+}
+
+/* HEADER */
+
+header {
+  background-image: url(/images/pexels-max-vakhtbovych-6492402.jpg);
+  height: 75vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.271);
+  margin-bottom: 1em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav img {
+  max-width: 200px;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  margin: 2em;
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+nav li:hover {
+  opacity: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+nav a:hover {
+  opacity: 50%;
+}
+
+.navLi i {
+  margin-left: 5px;
+}
+
+.activ {
+  text-decoration: underline;
+}
+
+.figmaIcon img {
+  width: 40px;
+}
+
+/* MAIN CONTENT */
+.headingP {
+  letter-spacing: 1px;
+  color: #36535b;
+  background-color: #e0dad8;
+  width: 100%;
+  padding: 2em;
+}
+.imgDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1em 0;
+
+  box-shadow: 3px 3px 5px gray;
+}
+.imgDiv img {
+  width: 400px;
+  box-shadow: 3px 3px 5px gray;
+  opacity: 95%;
+}
+.imgs {
+  margin: 5em 0;
+}
+.imgs h2 {
+  color: #36535b;
+
+  padding: 1em;
+  letter-spacing: 1px;
+}
+.imgs p {
+  max-width: 400px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 0 1.2em;
+}
+.imgs .price {
+  font-weight: 600;
+  margin-top: 1em;
+  font-size: 18px;
+}
+.imgs span {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.imgs i {
+  color: rgb(243, 204, 29);
+}
+.imgs .grey {
+  color: rgb(161, 159, 159);
+}
+
+/* FOOTER SECTION */
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin: 2em;
+  font-weight: 500;
+  color: #36535b;
+}
+
+.footerDiv {
+  text-align: center;
+}
+
+.footerDiv ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerDiv li {
+  list-style: none;
+  border-right: 1px solid black;
+  padding: 0 1.5em;
+  margin: 2em 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #36535b;
+}
+.footerDiv li:hover {
+  opacity: 50%;
+}
+
+footer img {
+  margin-bottom: 2em;
+}
