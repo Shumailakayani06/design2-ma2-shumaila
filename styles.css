@@ -91,9 +91,14 @@ nav a:hover {
   width: 400px;
   box-shadow: 3px 3px 5px gray;
   opacity: 95%;
+  cursor: pointer;
 }
 .imgs {
   margin: 5em 0;
+  transition: 0.5s;
+}
+.imgDiv img:hover {
+  opacity: 60%;
 }
 .imgs h2 {
   color: #36535b;
